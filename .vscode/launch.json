@@ -1,0 +1,35 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "ProtocolTuringMachine",
+      "request": "launch",
+      "mainClass": "com.example.framework.core.test.ProtocolTuringMachine",
+      "projectName": "framework-core"
+    },
+    {
+      "type": "java",
+      "name": "UniversalMachine",
+      "request": "launch",
+      "mainClass": "com.example.framework.core.test.UniversalMachine",
+      "projectName": "framework-core"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "com.example.framework.core.test.App",
+      "projectName": "framework-core"
+    },
+    {
+      "type": "java",
+      "name": "App (example-app)",
+      "request": "launch",
+      "mainClass": "com.example.framework.App",
+      "projectName": "example-app",
+      "cwd": "${workspaceFolder}/example-app",
+      "console": "integratedTerminal"
+    }
+  ]
+}
